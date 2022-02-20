@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
-const methodOverride = require('method-override');
+// const methodOverride = require('method-override');
 const postApiRoutes = require('./routes/api-todo-routes');
 const cors = require('cors');
 
